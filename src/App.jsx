@@ -1,6 +1,15 @@
 import React from 'react';
+import { MainPage } from './pages/MainPage';
+import { Footer } from './components/Footer';
+// import { Header } from './components/Header';
 import './App.scss';
 
 export const App = () => {
-  return <div className="App">Welcome to trallis menu guide</div>;
+  return (
+    <>
+      {/* <Header /> */}
+      <MainPage />
+      <Footer />
+    </>
+  );
 };

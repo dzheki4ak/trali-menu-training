@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  height: 48px;
+  background-image: linear-gradient(
+    90deg,
+    hsl(53deg 95% 56%) 0%,
+    hsl(61deg 100% 44%) 9%,
+    hsl(69deg 100% 44%) 19%,
+    hsl(78deg 100% 44%) 28%,
+    hsl(89deg 100% 44%) 38%,
+    hsl(109deg 89% 46%) 48%,
+    hsl(120deg 100% 35%) 58%,
+    hsl(120deg 100% 27%) 69%,
+    hsl(120deg 100% 18%) 79%,
+    hsl(120deg 100% 11%) 90%,
+    hsl(0deg 0% 0%) 100%
+  );
+
+  &__list {
+    width: 100%;
+    max-width: 900px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    &-item {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__img {
+      width: 18px;
+      margin-right: 4px;
+      color: #ffffff;
+    }
+
+    &__text {
+      color: white;
+    }
+  }
+}
